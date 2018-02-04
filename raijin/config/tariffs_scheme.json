@@ -1,0 +1,88 @@
+{
+  "tariffs": [
+    {
+      "name": "3.1",
+      "workable-discrimination": true,
+      "grid": [
+        {
+          "workable": true,
+          "month": [
+            true,
+            true,
+            true,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            true,
+            true
+          ],
+          "peak": [
+            "17:00-23:00"
+          ],
+          "flat": [
+            "08:00-17:00",
+            "23:00-00:00"
+          ],
+          "valley": [
+            "00:00-08:00"
+          ]
+        },
+        {
+          "workable": true,
+          "month": [
+            false,
+            false,
+            false,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            false,
+            false,
+            false
+          ],
+          "peak": [
+            "10:00-16:00"
+          ],
+          "flat": [
+            "08:00-10:00",
+            "16:00-00:00"
+          ],
+          "valley": [
+            "00:00-08:00"
+          ]
+        },
+        {
+          "workable": false,
+          "month": [
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "peak": [],
+          "flat": [
+            "18:00-00:00"
+          ],
+          "valley": [
+            "00:00-18:00"
+          ]
+        }
+      ]
+    }
+  ]
+}
