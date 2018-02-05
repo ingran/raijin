@@ -10,9 +10,9 @@ The support for Python 2 will be deprecated in future releases and it is recomme
 #### **Python 2**
 
 * Install last version of Python 2
-* Install requirements: `pip install -r requirements.tx`
+* Install requirements: `pip install -r requirements.txt`
 
 #### **Python 3**
 
 * Install last version of Python 3
-* Install requirements: `pip install -r requirements.tx`
+* Install requirements: `pip install -r requirements.txt`
