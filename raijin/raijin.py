@@ -186,7 +186,8 @@ class Raijin:
                     for month in range(1, 12):
                         for day in self.__holidays[year][month-1]:
                             year_holidays.append(str(day).zfill(2) + '-' + str(month).zfill(2) + '-' + year)
-                prettified[year] = year_holidays
+                    prettified[year] = year_holidays
+                    year_holidays = []
             else:
                 for month in range(1, 12):
                     for day in self.__holidays[str(year)][month-1]:
