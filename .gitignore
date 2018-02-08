@@ -1,6 +1,6 @@
 __pycache__/
 *.pyc
 .idea/
-*_temp
+*trial_temp*
 *.sqlite
 config.json
